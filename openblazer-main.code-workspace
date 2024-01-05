@@ -4,14 +4,24 @@
             "name": "openblazer",
             "path": "."
         },
-        {
-            "name": "UE5",
-            "path": "C:\\Program Files\\Epic Games\\UE_5.3"
-        }
+        // {
+        //     "name": "UE5",
+        //     "path": "C:\\Program Files\\Epic Games\\UE_5.3"
+        // }
     ],
     "settings": {
         "typescript.tsc.autoDetect": "off",
-        "npm.autoDetect": "off"
+        "npm.autoDetect": "off",
+        "files.exclude": {
+            "**/.git": true,
+            "**/.vs": true,
+            "**/.vscode": true,
+            "Binaries": true,
+            "Build": true,
+            "DerivedDataCache": true,
+            "Intermediate": true,
+            "Saved": true,
+        }
     },
     "extensions": {
         "recommendations": [
@@ -21,6 +31,14 @@
     },
     "tasks": {
         "version": "2.0.0",
+        "options": {
+            "shell": {
+                "executable": "cmd.exe",
+                "args": [
+                    "/c"
+                ]
+            }
+        },
         "tasks": [
             {
                 "label": "openblazer Win64 Debug Build",
