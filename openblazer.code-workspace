@@ -470,7 +470,7 @@
             {
                 "name": "Launch openblazer (Debug)",
                 "request": "launch",
-                "program": "C:\\usrdev\\openblazer\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+                "program": "C:\\usrdev\\openblazer\\Binaries\\Win64\\openblazer-Win64-Debug.exe",
                 "preLaunchTask": "openblazer Win64 Debug Build",
                 "args": [],
                 "cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
@@ -485,7 +485,7 @@
             {
                 "name": "Launch openblazer (DebugGame)",
                 "request": "launch",
-                "program": "C:\\usrdev\\openblazer\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+                "program": "C:\\usrdev\\openblazer\\Binaries\\Win64\\openblazer-Win64-DebugGame.exe",
                 "preLaunchTask": "openblazer Win64 DebugGame Build",
                 "args": [],
                 "cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
@@ -500,7 +500,7 @@
             {
                 "name": "Launch openblazer (Development)",
                 "request": "launch",
-                "program": "C:\\usrdev\\openblazer\\Binaries\\Win64\\UnrealGame.exe",
+                "program": "C:\\usrdev\\openblazer\\Binaries\\Win64\\openblazer.exe",
                 "preLaunchTask": "openblazer Win64 Development Build",
                 "args": [],
                 "cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
@@ -515,7 +515,7 @@
             {
                 "name": "Launch openblazer (Test)",
                 "request": "launch",
-                "program": "C:\\usrdev\\openblazer\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+                "program": "C:\\usrdev\\openblazer\\Binaries\\Win64\\openblazer-Win64-Test.exe",
                 "preLaunchTask": "openblazer Win64 Test Build",
                 "args": [],
                 "cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
@@ -530,7 +530,7 @@
             {
                 "name": "Launch openblazer (Shipping)",
                 "request": "launch",
-                "program": "C:\\usrdev\\openblazer\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+                "program": "C:\\usrdev\\openblazer\\Binaries\\Win64\\openblazer-Win64-Shipping.exe",
                 "preLaunchTask": "openblazer Win64 Shipping Build",
                 "args": [],
                 "cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
