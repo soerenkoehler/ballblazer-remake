@@ -602,24 +602,6 @@
                 "sourceFileMap": {
                     "D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.3"
                 }
-            },
-            {
-                "name": "Generate Project Files",
-                "type": "coreclr",
-                "request": "launch",
-                "preLaunchTask": "UnrealBuildTool Win64 Development Build",
-                "program": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Build\\BatchFiles\\RunUBT.bat",
-                "args": [
-                    "-projectfiles",
-                    "-vscode",
-                    "-project=C:\\usrdev\\openblazer\\openblazer.uproject",
-                    "-game",
-                    "-engine",
-                    "-dotnet"
-                ],
-                "console": "externalTerminal",
-                "stopAtEntry": false,
-                "cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
             }
         ]
     }

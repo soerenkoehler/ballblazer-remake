@@ -9,7 +9,7 @@
 #include "Engine/LocalPlayer.h"
 #include "Kismet/GameplayStatics.h"
 
-#include "SplitscreenManager.generated.h"
+#include "SplitscreenWithGap.generated.h"
 
 UCLASS()
 class OPENBLAZER_API ASplitscreenWithGap : public AActor
